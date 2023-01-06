@@ -23,7 +23,7 @@ jobs:
         node-version: '14'
       #Comandos para nodejs
     - name: Instalación de dependencias
-      run: npm install --no-audit --no-fund --no-optional
+      run: npm ci
     - name: Linter
       run: npm run eslint
     - name: Construcción del proyecto
